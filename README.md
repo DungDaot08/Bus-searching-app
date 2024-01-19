@@ -1,11 +1,11 @@
 # Bus-map
-gcc -fno-stack-protector -w -c bus.c
-gcc -fno-stack-protector -w -c dllist.c
-gcc -fno-stack-protector -w -c jval.c
-gcc -fno-stack-protector -w -c jrb.c
-gcc -w -c gui.c `pkg-config --cflags gtk+-3.0` `pkg-config --libs gtk+-3.0`
-gcc gui.o bus.o dllist.o jval.o jrb.o `pkg-config --cflags gtk+-3.0` `pkg-config --libs gtk+-3.0` -o result
-./result
+gcc -fno-stack-protector -w -c bus.c<br/>
+gcc -fno-stack-protector -w -c dllist.c<br/>
+gcc -fno-stack-protector -w -c jval.c<br/>
+gcc -fno-stack-protector -w -c jrb.c<br/>
+gcc -w -c gui.c `pkg-config --cflags gtk+-3.0` `pkg-config --libs gtk+-3.0`<br/>
+gcc gui.o bus.o dllist.o jval.o jrb.o `pkg-config --cflags gtk+-3.0` `pkg-config --libs gtk+-3.0` -o result<br/>
+./result<br/>
 
 # Features
 
